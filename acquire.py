@@ -156,7 +156,7 @@ def sales_data():
     # return the resulting dataframe
     return df
 
-def combine_heb_data(sales, items, stores):
+def combine_store_data(sales, items, stores):
     '''
     Combines sales, items, stores df's (in that order)
     Returns combined df.
